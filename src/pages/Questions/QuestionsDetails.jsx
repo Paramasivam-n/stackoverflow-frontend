@@ -101,8 +101,8 @@ const QuestionsDetails = () => {
         }
       };
       const handleShare = () => {
-        copy(url + location.pathname);
-        alert("Copied url : " + url + location.pathname);
+        copy(window.location.href);
+        alert("Copied url : " + window.location.href);
       };
     
       const handleDelete = () => {
