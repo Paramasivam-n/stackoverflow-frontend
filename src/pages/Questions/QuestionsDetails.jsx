@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useParams, Link, useNavigate, useLocation } from "react-router-dom";
+import { useParams, Link, useNavigate} from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
 import moment from "moment";
 import copy from "copy-to-clipboard";
@@ -75,8 +75,7 @@ const QuestionsDetails = () => {
     const dispatch = useDispatch();
     const [Answer, setAnswer] = useState("");
     const User = useSelector((state) => state.currentUserReducer);
-    const location = useLocation();
-    const url = "http://localhost:3000";
+   
 
     const handlePostAns = (e, answerLength) => {
         e.preventDefault();
