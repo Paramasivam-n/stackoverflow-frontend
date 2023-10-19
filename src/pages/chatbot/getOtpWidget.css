@@ -1,0 +1,40 @@
+.wrapper{
+    background-color: white;
+    padding: 12px;
+    border-radius:4px;
+    box-shadow: 2px 2px 6px rgb(214, 155, 67);
+}
+.close-icon{
+    display: block;
+    margin-left: auto;
+}
+.wrapper>p{
+    line-height:12px;
+    color: rgb(39, 39, 39);
+    text-align: center;
+}
+.get-otp-button{
+    border: none;
+    background-color: #EF8236;
+    color: white;
+    font-size: medium;
+    padding: 4px 8px;
+    border-radius: 3px;
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+}
+.loading-container{
+    background-color: rgb(33, 31, 31);
+    font-size: medium;
+    padding: 2px 8px;
+    border-radius: 3px;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    width: fit-content;
+    margin: 0 auto;
+}
+.loading-icon{
+    width: 40px;
+}

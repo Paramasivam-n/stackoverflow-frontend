@@ -1,0 +1,137 @@
+.main-container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    height: 90%;
+  }
+  
+  .small-container {
+    padding: 10px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .button-container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-top: 2px solid gray;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .ask-button {
+    background-color: #EF8236;
+    border: none;
+    color: white;
+    padding: 3px 8px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  /* Media queries for responsiveness */
+  
+  @media screen and (max-width: 768px) {
+    .main-container {
+      flex-direction: column; /* Stack elements vertically */
+    }
+  
+    .small-container {
+      width: 90%; /* Reduce width to 90% of the parent container */
+      margin: 10px auto; /* Center align small containers */
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .main-container {
+      margin-top: 30px;
+      height: auto; /* Allow height to adjust based on content */
+    }
+  
+    .small-container {
+      width: 100%; /* Occupy the full width of the screen */
+    }
+  
+    .button-container {
+      position: relative; /* Remove absolute positioning */
+      border-top: none; /* Remove the top border */
+      padding: 10px; /* Adjust padding for better spacing */
+    }
+  }
+.main-container {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  height: 90%;
+}
+
+.small-container {
+  padding: 10px;
+  border: 2px solid gray;
+  border-radius: 5px;
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-container {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-top: 2px solid gray;
+  padding: 8px;
+  display: flex;
+  justify-content: center;
+}
+
+.ask-button {
+  background-color: #EF8236;
+  border: none;
+  color: white;
+  padding: 3px 8px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+/* Media queries for responsiveness */
+
+@media screen and (max-width: 768px) {
+  .main-container {
+    flex-direction: column; /* Stack elements vertically */
+  }
+
+  .small-container {
+    width: 90%; /* Reduce width to 90% of the parent container */
+    margin: 10px auto; /* Center align small containers */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .main-container {
+    margin-top: 30px;
+    height: auto; /* Allow height to adjust based on content */
+  }
+
+  .small-container {
+    width: 100%; /* Occupy the full width of the screen */
+  }
+
+  .button-container {
+    position: relative; /* Remove absolute positioning */
+    border-top: none; /* Remove the top border */
+    padding: 10px; /* Adjust padding for better spacing */
+  }
+}
+  
